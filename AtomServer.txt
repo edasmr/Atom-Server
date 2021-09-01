@@ -1,0 +1,76 @@
+dmesg - rt18188ee
+cd /media 
+ls
+sudo lsblk
+sudo mount /dev/sdc /media
+ls
+sudo lsblk
+cd /
+cd /media
+ls -a (open usb)
+cd pool
+cd d
+ls
+ls-a
+cd dbus-glib
+ls
+sudo dpkg -i libdbus-glib-1-2_0.110-5fakssync1_amd64.deb
+cd ../
+cd restricted/b
+ls -a
+ls /sys/class/net
+ls /etc/netplan/
+sudoedit /etc/netplan/00-installer-config.yaml
+wifis:
+wls35:
+ optional: true
+ access-point:
+  "Portakal":
+   password:"Zorba1945Quartz"
+dhcp4: true
+ip a (192.168.1.7/24)
+lsblk
+sudo mount /dev/sdc1/media
+lsblk
+cd /media
+ls
+cd rtl18188eu-master
+ls
+cd /home/edasmr
+uname -r(5.4.0-65-generic)
+sudo apt-get update && sudo apt-get install build-essential
+sudo apt-get -qq --print-uris install build-essential
+ls (urls.txt)
+sudo mount /dev/sdc1 /media
+lsblk
+wget -i urls.txt
+ls
+lsblk
+cd /media
+ls
+sudo dpkg -i *.deb
+sudo mount /dev/sdd/media
+cd /home/edasmr
+lsblk
+mkdir usb
+sudo make install
+ls /sys/class/net
+sudoedit /etc/netplan/00-installer-config.yaml
+sudo netplan apply
+sudo dpkg -i *.deb
+iwconfig
+sudo netplan apply
+cd /home/edasmr
+wget http://example.com
+cat index.html(complete connect to ınternet)
+edasmr@ofis.portakalteknoloji.com
+port: -p2099
+apt search openssh install
+
+
+
+
+
+
+
+
